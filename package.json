@@ -2,8 +2,8 @@
   "name": "vscode-uci",
   "displayName": "OpenWRT UCI Highlighter",
   "description": "Syntax highlighting for the UCI config files",
-  "version": "0.0.3",
-  "publisher": "drizt",
+  "version": "0.0.4",
+  "publisher": "4lex11s",
   "engines": {
     "vscode": "^1.90.0"
   },
@@ -19,7 +19,8 @@
           "uci"
         ],
         "extensions": [
-          ".uci"
+          ".uci",
+          ".uci.conf"
         ],
         "configuration": "./language-configuration.json"
       }
